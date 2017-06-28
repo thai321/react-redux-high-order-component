@@ -26,7 +26,7 @@ export default function(ComposedComponent) {
       // console.log('Rendering ComposedComponent: ', ComposedComponent);
       // console.log('Authenticated: ', this.props.authenticated);
       console.log('this.context: ', this.context); // access to router
-      return <ComposedComponent {...this.props} />
+      return <ComposedComponent {...this.props} /> // pass the addition props
     }
   }
 
